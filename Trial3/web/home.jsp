@@ -6,34 +6,37 @@
 <%@ page import="java.util.*"%>
 
 <style>
-td {font:10pt verdana}
-th {font:700 10pt verdana}
-h2 {font:700 16pt arial}
-a {font:700 10pt verdana;color:darkgreen}
+h2{color:beige;font:700 19pt arial;text-align:center}
+    h4 {color:#422829;font:700 11pt verdana;text-align:center}
+    td {font:15pt verdana;text-align:center}
+    a {font:12pt verdana;color:black;text-align:center}
+    td{color:beige }
+    p{font:14pt verdana}
+    form {font:12pt verdana;color:beige;text-align:center}
+body {
+      background-image: url('books.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
 </style>
-
-<%
-  
-%>
-
-
 
 <html>
 <body bgcolor="beige">
 
 
-<table border=1 border=1  width=100%>
-<tr style="font:700 11pt verdana;background-color:green;color:white">
+<table width=100%>
+<tr style="font:700 15pt verdana;background-color:green;color:white">
 <td>
-Welcome <b><jsp:getProperty name="user" property="uname"/> </b> 
+Welcome!<b><jsp:getProperty name="user" property="uname"/> </b> 
 </tr>
 
 <tr style="font:10pt verdana">
 <td>
-<h2>Shopping Cart </h2>
+<h2>Shopping Cart</h2>
 
 
-<table  width=100%>
+<table  width=100%; margin-left=auto; margin-right=auto; >
 <tr>
 <td width=70%>
 
@@ -153,7 +156,7 @@ Total Amount : <%=total%>
 [<a href="browsebooks.jsp">Browse Books</a>] &nbsp;&nbsp;
 [<a href="querybooks.jsp">Query Books</a>] &nbsp;&nbsp;
 [<a href="ordershistory.jsp">Orders History</a>] &nbsp;&nbsp;
-[<a href=logout.jsp> Logout </a>]
+[<a style="color:beige" href=logout.jsp> Logout </a>]
 </td>
 </tr>
 
