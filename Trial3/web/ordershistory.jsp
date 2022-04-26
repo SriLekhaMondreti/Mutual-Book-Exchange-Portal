@@ -3,9 +3,17 @@
 
 <html>
 <style>
-a.topic {font:700 11pt verdana;color:white}
-td {font:10pt verdana}
-th {font:700 10pt verdana;background-color:green;color:white}
+h1{color:beige;font:700 20pt arial;text-align:center}
+    h4 {color:beige;font:700 11pt verdana;text-align:center}
+    td {font:12pt verdana;text-align:center}
+    a {font:12pt verdana;color:beige;text-align:center}
+    th{color:beige }
+    p{font:14pt verdana}
+    body {
+      background-image: url('books.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
 </style>
 
 <body bgcolor="beige">
