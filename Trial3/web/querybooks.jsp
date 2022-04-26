@@ -1,10 +1,19 @@
 <html>
 
 <style>
-h2{color:navy;font:700 20pt arial}
-h4 {color:brwon;font:700 11pt verdana}
-td {font:700 10pt verdana}
-a {font:700 10pt verdana;color:darkgreen}
+    h2{color:beige;font:700 20pt arial;text-align:center}
+    h4 {color:#422829;font:700 11pt verdana;text-align:center}
+    td {font:12pt verdana;text-align:center}
+    a {font:12pt verdana;color:beige;text-align:center}
+    td{color:beige }
+    p{font:14pt verdana}
+    form {font:12pt verdana;color:beige;text-align:center}
+body {
+      background-image: url('books.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
 
 </style>
 
