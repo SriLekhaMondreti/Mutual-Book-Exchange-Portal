@@ -1,94 +1,74 @@
-
-<!-- 
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+    <style>
+    h2{color:beige;font:700 20pt arial;text-align:center}
+    h4 {color:#422829;font:700 11pt verdana;text-align:center}
+    td {font:12pt verdana;text-align:center}
+    a {font:12pt verdana;color:beige;text-align:center}
+    td{color:beige }
+    p{font:14pt verdana}
+    body {
+      background-image: url('books.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+    
+    <body style ="background-color:beige" >
+        
+    <h2>New User Registration </h2>
+    <hr>
+    <form action="reg.jsp" method="post">
+    <table>
+    <tr>
+    <td>
+    User Name
+    <td>
+    <input type=text name=uname size=20 required>*
+    </tr>
+    <tr>
+    <td>
+    Password
+    <td>
+    <input type=password name=pwd size=20 required>*
+    </tr>
+    <tr>
+    <td>
+    Confirm Password
+    <td>
+    <input type=password name=pwd2 size=20 required>*
+    </tr>
+    
+    <tr>
+    <td>
+    Email Address
+    <td>
+    <input type=text name=email size=30 required>*
+    </tr>
+    
+    <tr>
+    <td>Mailing Address
+    <td>
+    <textarea name="address" rows=3 cols=30 required></textarea>*
+    </td>
+    </tr>
+    
+    
+    <tr>
+    <td>
+    Phone Number
+    <td>
+    <input type=text  name=phone  size=30 required>
+    </tr>
+        
+    </table>
+    <p>
+    
+    <input type=submit value="Register">
+    <input type=reset value="Clear All">
+    <p>
+    <a href="Login.html">Go Back</a>
+    </form>
 
-<form action="reg.jsp" method="post">
-
-User name :<input type="text" name="userid" /><br/><br/>
-password :<input type="password" name="pwd" /><br/><br/>
-First name :<input type="text" name="fname" /><br/><br/>
-Last name :<input type="text" name="lname" /><br/><br/>
-Email :<input type="text" name="email" /><br/><br/>
-<br/><br/>
-
-<input type="submit" />
-
-
-</body>
-</html>
- -->
- 
- <html>
-<style>
-h2{color:bottlegreen;font:700 20pt arial}
-h4 {color:brwon;font:700 11pt verdana}
-td {font:10pt verdana}
-a {font:10pt verdana;color:navy}
-
-</style>
-
-<body bgcolor="b5bcc7">
-
-<h2>New User Registration </h2>
-<hr>
-<form action="reg.jsp" method="post">
-<table>
-<tr>
-<td>
-User Name
-<td>
-<input type=text name=uname size=20>*
-</tr>
-<tr>
-<td>
-Password
-<td>
-<input type=password name=pwd size=20>*
-</tr>
-<tr>
-<td>
-Confirm Password
-<td>
-<input type=password name=pwd2 size=20>*
-</tr>
-
-<tr>
-<td>
-Email Address
-<td>
-<input type=text name=email size=30>*
-</tr>
-
-<tr>
-<td>Mailing Address
-<td>
-<textarea name="address" rows=3 cols=30></textarea>*
-</td>
-</tr>
-
-
-<tr>
-<td>
-Phone Number
-<td>
-<input type=text  name=phone  size=30>
-</tr>
-	
-</table>
-<p>
-
-<input type=submit value="Register">
-<input type=reset value="Clear All">
-<p>
-<a href="Login.html">Go Back</a>
-</form>
-
-</center>
-</body>
-</html>   
+    </body>
+    </html>
